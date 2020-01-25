@@ -1,0 +1,14 @@
+﻿<Window x:Class="Registro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Registro"
+        mc:Ignorable="d"
+        Title="Registro de personas" Height="400" Width="400">
+    <Grid>
+        <Button x:Name="Registrar" Content="Registrar" HorizontalAlignment="Center" Margin="0,114,0,0" VerticalAlignment="Top" Click="RegistroButton_Click" Height="42" Width="168"/>
+        <Button x:Name="Consultar" Content="Consultar" HorizontalAlignment="Center" Margin="0,192,0,0" VerticalAlignment="Top" Click="ConsultarButton_Click" Height="42" Width="168"/>
+
+    </Grid>
+</Window>

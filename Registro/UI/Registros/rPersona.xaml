@@ -1,0 +1,28 @@
+﻿<Window x:Class="Registro.UI.Registros.rPersona"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Registro.UI.Registros"
+        mc:Ignorable="d"
+        Title="Registar Persona" Height="450" Width="500">
+    <Grid Background="#FFDADADA">
+        <Label Content="ID" HorizontalAlignment="Left" Margin="77,49,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbID" HorizontalAlignment="Left" Height="32" Margin="220,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="77,99,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbNombre" HorizontalAlignment="Left" Height="32" Margin="220,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
+        <Label Content="Telefono" HorizontalAlignment="Left" Margin="77,150,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbTelefono" HorizontalAlignment="Left" Height="32" Margin="220,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
+        <Label Content="Cedula" HorizontalAlignment="Left" Margin="77,198,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbCedula" HorizontalAlignment="Left" Height="32" Margin="220,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
+        <Label Content="Direccion" HorizontalAlignment="Left" Margin="77,249,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbDireccion" HorizontalAlignment="Left" Height="32" Margin="220,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
+        <Label Content="Fecha Nacimiento" HorizontalAlignment="Left" Margin="77,302,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dpFecha" HorizontalAlignment="Left" Height="32" Margin="220,302,0,0" VerticalAlignment="Top" Width="130"/>
+        <Button x:Name="nuevo" Content="Nuevo" HorizontalAlignment="Left" Height="39" Margin="100,356,0,0" VerticalAlignment="Top" Width="55" Click="nuevo_Click" Background="#FFBBBBBB"/>
+        <Button x:Name="guardar" Content="Guardar"  HorizontalAlignment="Left" Height="39" Margin="230,356,0,0" VerticalAlignment="Top" Width="55" Click="guardar_Click" Background="#FFBBBBBB"/>
+        <Button x:Name="eliminar" Content="Eliminar" HorizontalAlignment="Left" Height="39" Margin="360,356,0,0" VerticalAlignment="Top" Width="55" Click="eliminar_Click" Background="#FFBBBBBB"/>
+        <Button x:Name="buscar" Content="Buscar" HorizontalAlignment="Left" Height="32" Margin="385,49,0,0" VerticalAlignment="Top" Width="55" Click="buscar_Click"/>
+
+    </Grid>
+</Window>
